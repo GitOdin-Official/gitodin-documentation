@@ -108,12 +108,12 @@
               </div>
               <div id="faq2_q2" class="collapse" role="tabpanel" aria-labelledby="faq2_h2" data-parent="#faq2">
                 <div class="block-content border-t">
-                 @include('pages.documentation.functionality.features')
+                  @include('pages.documentation.functionality.features')
                 </div>
               </div>
             </div>
-            
-            
+
+
           </div>
         </div>
       </div>
@@ -175,7 +175,7 @@
               </div>
               <div id="what-is-a-regional-tower" class="collapse show" role="tabpanel" aria-labelledby="faq4_h1" data-parent="#faq4">
                 <div class="block-content border-t">
-                 @include('pages.documentation.regional-towers-and-bases.what-is-a-regional-tower')
+                  @include('pages.documentation.regional-towers-and-bases.what-is-a-regional-tower')
                 </div>
               </div>
             </div>
@@ -185,7 +185,7 @@
               </div>
               <div id="what-is-a-regional-base" class="collapse" role="tabpanel" aria-labelledby="faq4_h2" data-parent="#faq4">
                 <div class="block-content border-t">
-                 @include('pages.documentation.regional-towers-and-bases.what-is-a-regional-base')
+                  @include('pages.documentation.regional-towers-and-bases.what-is-a-regional-base')
                 </div>
               </div>
             </div>
@@ -205,7 +205,7 @@
               </div>
               <div id="limitations" class="collapse" role="tabpanel" aria-labelledby="faq4_h2" data-parent="#faq4">
                 <div class="block-content border-t">
-                   @include('pages.documentation.regional-towers-and-bases.limitations')
+                  @include('pages.documentation.regional-towers-and-bases.limitations')
                 </div>
               </div>
             </div>
@@ -288,8 +288,64 @@
           </div>
         </div>
       </div>
-      
+      <div class="block">
+        <div class="block-header block-header-default">
+          <h3 class="block-title">
+            <strong>6.</strong> Broadcasting Your Data
+          </h3>
+          <div class="block-options">
+            <button type="button" class="btn-block-option">
+                    <i class="si si-question"></i>
+                </button>
+          </div>
+        </div>
+        <div class="block-content block-content-full">
+          <div id="faq6" role="tablist" aria-multiselectable="true">
+            <div class="block block-bordered block-rounded mb-5">
+              <div class="block-header" role="tab" id="faq6_h1">
+                <a class="font-w600 text-body-color-dark" data-toggle="collapse" href="#creating-an-application" aria-expanded="true" aria-controls="creating-an-application">6.1 Creating an Application</a>
+              </div>
+              <div id="creating-an-application" class="collapse show" role="tabpanel" aria-labelledby="faq6_h1" data-parent="#faq6">
+                <div class="block-content border-t">
+                  @include('pages.documentation.broadcasting.creating-an-application')
+                </div>
+              </div>
+            </div>
+            <div class="block block-bordered block-rounded mb-5">
+              <div class="block-header" role="tab" id="faq6_h1">
+                <a class="font-w600 text-body-color-dark" data-toggle="collapse" href="#broadcasting-single-payload" aria-expanded="true" aria-controls="broadcasting-single-payload">6.2 Broadcasting Single Payload</a>
+              </div>
+              <div id="broadcasting-single-payload" class="collapse" role="tabpanel" aria-labelledby="faq6_h1" data-parent="#faq6">
+                <div class="block-content border-t">
+                  @include('pages.documentation.broadcasting.broadcasting-single-payloads')
+                </div>
+              </div>
+            </div>
+            <div class="block block-bordered block-rounded mb-5">
+              <div class="block-header" role="tab" id="faq6_h1">
+                <a class="font-w600 text-body-color-dark" data-toggle="collapse" href="#broadcasting-multi-payload" aria-expanded="true" aria-controls="broadcasting-multi-payload">6.3 Broadcasting Multi Payload</a>
+              </div>
+              <div id="broadcasting-multi-payload" class="collapse" role="tabpanel" aria-labelledby="faq6_h1" data-parent="#faq6">
+                <div class="block-content border-t">
+                  @include('pages.documentation.broadcasting.broadcasting-multi-payloads')
+                </div>
+              </div>
+            </div>
+            <div class="block block-bordered block-rounded mb-5">
+              <div class="block-header" role="tab" id="faq6_h1">
+                <a class="font-w600 text-body-color-dark" data-toggle="collapse" href="#broadcasting-auth-payload" aria-expanded="true" aria-controls="broadcasting-auth-payload">6.3 Broadcasting Authorization Payload</a>
+              </div>
+              <div id="broadcasting-auth-payload" class="collapse" role="tabpanel" aria-labelledby="faq6_h1" data-parent="#faq6">
+                <div class="block-content border-t">
+                  @include('pages.documentation.broadcasting.broadcasting-auth-payload')
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-    
+
 </main>
 @endsection
